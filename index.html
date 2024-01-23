@@ -16,6 +16,10 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
     .font-type{
         font-family: 'Manrope', sans-serif;
     }
@@ -71,24 +75,29 @@
               <a class="btn bg-btn-bg text-white mx-5 my-4 w-[148px] h-[54px] font-bold text-xl ">Button</a>
             </div>
           </div>
-
-    </header>
-    <main>
-        <!-- banner section -->
-        <section class="w-11/12 mx-auto my-20">
+           <!-- banner section -->
+     
+          <section class="w-11/12 mx-auto my-20">
             <div class="carousel relative w-full text-white ">
                 <div id="slide1" class="carousel-item relative w-full">
-                  <img src="./Images/1.png" class=" h-[550px] w-[1170px] rounded-2xl"  />
-                  <div class="absolute flex justify-between gap-4 transform -translate-y-1/2 left-28 left-28 Lg:left-5 lg:left-5    top-[70%]">
+                  <img src="./Images/1.png" class=" rounded-2xl"/>
+                  <div class="absolute flex justify-between gap-4 transform -translate-y-1/2 left-28 left-28 Lg:left-5 lg:left-5    top-[90%]">
                     <a href="#slide4" class="btn btn-circle  bg-black text-white">❮</a> 
                     <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
                   </div>
+                    
+        <div class="position bg-black">
+          <h3 class="text-white text-xl font-extrabold">Meet all the heroes from the field</h3>
+          <p class="text-[rgba(255, 255, 255, 0.60)] w-[502px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
                 </div> 
                
                 
-                <div id="slide2" class="carousel-item relative w-full">
+                <div id="slide2" class="carousel-item relative h-[550px] w-[1170px] rounded-2xl">
                   <img src="./Images/2.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 left-5 -top-[70%]">
+                  <div class="absolute flex justify-between transform -translate-y-1/2 
+                  left-28 left-28s
+                  lg:left-5 lg:left-5 -top-[90%]">
                     <a href="#slide1" class="btn btn-circle bg-black">❮</a> 
                     <a href="#slide3" class="btn btn-circle bg-black">❯</a>
                   </div>
@@ -98,11 +107,450 @@
               </div>
               
         </section>
-        <!--  -->
-        <div class="position bg-black border border-2">
-            <h3 class="text-white text-xl font-extrabold">Meet all the heroes from the field</h3>
-            <p class="text-[rgba(255, 255, 255, 0.60)] w-[502px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <!-- banner section end here -->
+    </header>
+    <main>
+      <!-- border -->
+    <div class="w-11/12 mx-auto mb-20">
+        <p class="border-dashed border-2 border-[rgba(19, 19, 24, 0.20)] w-[1170px] h-[1px]"></p>
+       </div>
+
+       <!-- Professional Hockeys Club -->
+     <section class="w-11/12 mx-auto">
+   
+      <div class="flex-col justify-center items-center text-center gap-7">
+        <h3 class="text-[#131318] text-4xl font-extrabold text-center">Professional Hockeys Club</h3>
+        <p class=" text-[rgba(19, 19, 24, 0.60)] mt-5 ">Professional hockey clubs compete at the highest level in organized leagues,<br> showcasing skilled players and fostering intense rivalries to vie for coveted championships</p>
+       </div>
+      <div class="flex gap-6 flex-col justify-center items-center lg:flex-row  ">
+        <div class="card w-56 bg-base-100 ">
+          <figure class="px-10 pt-10">
+            <div class="radial-progress text-[#ff4240] " style="--value:80;" role="progressbar "> <span class="text-[#131318] font-extrabold text-2xl">85%</span></div>
+          </figure>
+          <div class="card-body items-center text-center">
+             <h3 class="text-[#131318] font-semibold mt-2">Player Facility</h3>
+              
+          <p class=" text-[rgba(19, 19, 24, 0.60)] mt-2 w-[400px] " >Player facilities <br>
+            in professional 
+            sports are <br>
+             state-of-the-art havens</p>
+           
+          </div>
         </div>
+        <div class="card w-56 bg-base-100 ">
+          <figure class="px-10 pt-10">
+            <div class="radial-progress text-[#49D293] " style="--value:95;" role="progressbar "> <span class="text-[#131318] font-extrabold text-2xl">95%</span></div>
+          </figure>
+          <div class="card-body items-center text-center ">
+             <h3 class="text-[#131318] font-semibold mt-2">Experienced Coach</h3>
+              
+          <p class=" text-[rgba(19, 19, 24, 0.60)] mt-2 w-[400px] " >An experienced coach,<br>
+              serves as a guiding beacon, </p>
+           
+          </div>
+        </div>
+        <div class="card w-56 bg-base-100 ">
+          <figure class="px-10 pt-10">
+            <div class="radial-progress text-[#ffb546] " style="--value:90;" role="progressbar "> <span class="text-[#131318] font-extrabold text-2xl">90%</span></div>
+          </figure>
+          <div class="card-body items-center text-center">
+             <h3 class="text-[#131318] font-semibold mt-2">Senior Player</h3>
+              
+          <p class=" text-[rgba(19, 19, 24, 0.60)] mt-2 w-[400px] pl-4" >A senior player, with a wealth of<br>
+             on-field wisdom, becomes a linchpin in <br>
+             a team's dynamics</p>
+           
+          </div>
+        </div>
+       
+        <div class="card w-56 bg-base-100 ">
+          <figure class="px-10 pt-10">
+            <div class="radial-progress text-[#4c8df1]" style="--value:80;" role="progressbar "> <span class="text-[#131318] font-extrabold text-2xl">80%</span></div>
+          </figure>
+          <div class="card-body items-center text-center">
+             <h3 class="text-[#131318] font-semibold mt-2">Training Ground</h3>
+              
+          <p class=" text-[rgba(19, 19, 24, 0.60)] mt-2 w-[400px] pl-4 " >The training ground,
+             a crucible <br> of skill refinement and tactical <br>
+             honing,
+              serves as the nucleus</p>
+           
+          </div>
+        </div>
+      
+      </div>
+     </section>
+        <!-- border -->
+    <div class="w-11/12 mx-auto mb-20">
+      <p class="border-dashed border-2 border-[rgba(19, 19, 24, 0.20)] w-[1170px] h-[1px]"></p>
+     </div>
+     <!-- program section -->
+     <section class="w-11/12mx-auto ">
+     <div class="flex-col justify-center items-center text-center gap-7">
+      <h3 class="text-[#131318] text-4xl font-extrabold text-center">Program Sections</h3>
+      <p class=" text-[rgba(19, 19, 24, 0.60)] mt-5 ">Program sections delineate the structured roadmap, each segment meticulously <br>
+         crafted to impart specific skills or knowledge, shaping a comprehensive learning experience.</p>
+     </div>
+    </section>
+     <!-- border -->
+     <div class="w-11/12 mx-auto mt-10">
+      <p class="border-dashed border-2 border-[rgba(19, 19, 24, 0.20)] w-[1170px] h-[1px]"></p>
+
+      <div class="flex flex-col lg:flex-row gap-5 w-11/12mx-auto justify-center items-center mt-20">
+        <div>
+          <div class="hero lg:w-[573px] lg:h-[338px] rounded-[16px] " style="background-image: url(./Images/2.png);">
+            <div class="hero-overlay bg-opacity-10"></div>
+            <div class="hero-content text-left text-neutral-content">
+              <div class="max-w-md pt-20 mr-2 lg:mr-16">
+                <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                <p class="mb-5">The Junior Program acts as a nurturing crucible, molding young talents through skill development, mentorship, and a passion-driven approach to lay the foundation for future sporting success.</p>
+                <button class="btn bg-btn-bg text-white h-[15px] w-[130px]  bg-[rgba(19, 19, 24, 0.50)]">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="hero  lg:w-[573px] lg:h-[338px] rounded-[16px] bg-[rgba(19, 19, 24, 0.50)]  " style="background-image: url(./Images/3.png);">
+            <div class="hero-overlay bg-opacity-10"></div>
+            <div class="hero-content text-left text-neutral-content">
+              <div class="max-w-md pt-20 mr-2 lg:mr-16">
+                <h1 class="mb-5 text-5xl font-bold">senior Program</h1>
+                <p class="mb-5">The Junior Program acts as a nurturing crucible, molding young talents through skill development, mentorship, and a passion-driven approach to lay the foundation for future sporting success.</p>
+                <button class="btn bg-btn-bg text-white h-[15px] w-[130px]">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="hero mt-4  lg:w-[1170px] lg:h-[450px] " style="background-image: url(./Images/4.png);">
+        <div class="hero-overlay bg-opacity-10"></div>
+        <div class="hero-content text-left text-neutral-content">
+          <div class="max-w-md mt-5 ">
+            <h1 class="mb-5 text-5xl font-bold ">Hello there</h1>
+            <p class="mb-5 text-left">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <button class="btn bg-btn-bg text-white h-[15px] w-[130px]">Register Now!</button>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- new product section -->
+     <section class="w-11/12 mx-auto my-20">
+  
+      <div class="flex-col justify-center items-center text-center gap-7">
+        <h3 class="text-[#131318] text-4xl font-extrabold text-center">Our New Products</h3>
+        <p class=" text-[rgba(19, 19, 24, 0.60)] mt-5 ">
+          "Experience innovation at its finest with our latest products,<br> designed to elevate and redefine your lifestyle."</p>
+       </div>
+<!-- product -->
+       <div class="grid grid-cols-1 lg:grid-cols-2">
+ <!-- product second part -->
+        <div class="">
+          <div class="flex flex-col lg:flex-row gap-5 justify-center items-center  mt-10">
+            <div class="1st img">
+              <img src="./Images/5.png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3 mt-3 ">
+                <div class="flex gap-1">
+                  <div >
+                    <img src="./Images/Frame (2).png" alt="">
+                  </div>
+                  <div>
+                  <h3 class="text-[#131318.50%]">
+                  5.0</h3>
+                </div>
+                </div>
+                <div class="flex gap-1">
+                  <img src="./Images/Frame (3).png" alt="">
+                  <h3 class="text-[[#131318.50%]]">20</h3>
+                </div>
+                <div class="flex gap-1">
+                  <div>
+                    <img src="./Images/Frame (4).png" alt="">
+                  </div>
+                  <div>
+                    <h3>200</h3>
+                  </div>
+                 
+                </div>
+               
+              </div>
+              <h3 class="text-[#131318] font-extrabold mt-2">World Cup Flags Football</h3>
+              <p class="w-[300px] text-[rgba(19, 19, 24, 0.60)] mt-2">"World Cup Flags Football celebrates the <br>
+                global spirit of the tournament</p>
+                <div class=" flex gap-2 mt-3">
+                  <div> <h4 class="text-[#FF4240] font-extrabold">
+                    Price - $22.00
+                  </h4></div>
+                  <div class="flex gap-1">
+                    <div>
+                      <img src="./Images/Frame (5).png" alt="">
+                    </div>
+                    <div>
+                      <h4>Delivery Fee : Free</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+            <!-- second -->
+            <div class="flex flex-col lg:flex-row gap-5 justify-center items-center  mt-10">
+              <div class="1st img">
+                <img src="./Images/7.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 mt-3 ">
+                  <div class="flex gap-1">
+                    <div >
+                      <img src="./Images/Frame (2).png" alt="">
+                    </div>
+                    <div>
+                    <h3 class="text-[#131318.50%]">
+                    5.0</h3>
+                  </div>
+                  </div>
+                  <div class="flex gap-1">
+                    <img src="./Images/Frame (3).png" alt="">
+                    <h3 class="text-[[#131318.50%]]">20</h3>
+                  </div>
+                  <div class="flex gap-1">
+                    <div>
+                      <img src="./Images/Frame (4).png" alt="">
+                    </div>
+                    <div>
+                      <h3>200</h3>
+                    </div>
+                   
+                  </div>
+                 
+                </div>
+                <h3 class="text-[#131318] font-extrabold mt-2">Cap For Hockeys</h3>
+                <p class="w-[300px] text-[rgba(19, 19, 24, 0.60)] mt-2">"Cap for Hockeys offers stylish headgear <br>
+                   designed for hockey enthusiasts,<br>
+                   ."</p>
+    
+                  <div class=" flex gap-2 mt-3">
+                    <div> <h4 class="text-[#FF4240] font-extrabold">
+                      Price - $22.00
+                    </h4></div>
+                    <div class="flex gap-1">
+                      <div>
+                        <img src="./Images/Frame (5).png" alt="">
+                      </div>
+                      <div>
+                        <h4>Delivery Fee : Free</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+               <!-- third-->
+            <div class="flex flex-col lg:flex-row justify-center items-center   gap-5 mt-10">
+              <div class="1st img">
+                <img src="./Images/9.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 mt-3 ">
+                  <div class="flex gap-1">
+                    <div >
+                      <img src="./Images/Frame (2).png" alt="">
+                    </div>
+                    <div>
+                    <h3 class="text-[#131318.50%]">
+                    5.0</h3>
+                  </div>
+                  </div>
+                  <div class="flex gap-1">
+                    <img src="./Images/Frame (3).png" alt="">
+                    <h3 class="text-[[#131318.50%]]">20</h3>
+                  </div>
+                  <div class="flex gap-1">
+                    <div>
+                      <img src="./Images/Frame (4).png" alt="">
+                    </div>
+                    <div>
+                      <h3>200</h3>
+                    </div>
+                   
+                  </div>
+                 
+                </div>
+                <h3 class="text-[#131318] font-extrabold mt-2">World Cup Flags Football</h3>
+                <p class="w-[300px] text-[rgba(19, 19, 24, 0.60)] mt-2">"World Cup Flags Football celebrates the <br>
+                  global spirit of the tournament</p>
+                  <div class=" flex gap-2 mt-3">
+                    <div> <h4 class="text-[#FF4240] font-extrabold">
+                      Price - $22.00
+                    </h4></div>
+                    <div class="flex gap-1">
+                      <div>
+                        <img src="./Images/Frame (5).png" alt="">
+                      </div>
+                      <div>
+                        <h4>Delivery Fee : Free</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+        </div>
+        <!-- product second part -->
+        <div>
+          <div class="flex flex-col lg:flex-row gap-5 justify-center items-center  mt-10">
+            <div class="1st img">
+              <img src="./Images/6.png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3 mt-3 ">
+                <div class="flex gap-1">
+                  <div >
+                    <img src="./Images/Frame (2).png" alt="">
+                  </div>
+                  <div>
+                  <h3 class="text-[#131318.50%]">
+                  5.0</h3>
+                </div>
+                </div>
+                <div class="flex gap-1">
+                  <img src="./Images/Frame (3).png" alt="">
+                  <h3 class="text-[[#131318.50%]]">20</h3>
+                </div>
+                <div class="flex gap-1">
+                  <div>
+                    <img src="./Images/Frame (4).png" alt="">
+                  </div>
+                  <div>
+                    <h3>200</h3>
+                  </div>
+                 
+                </div>
+               
+              </div>
+              <h3 class="text-[#131318] font-extrabold mt-2">World Cup Flags Football</h3>
+              <p class="w-[300px] text-[rgba(19, 19, 24, 0.60)] mt-2">"World Cup Flags Football celebrates the <br>
+                global spirit of the tournament</p>
+                <div class=" flex gap-2 mt-3">
+                  <div> <h4 class="text-[#FF4240] font-extrabold">
+                    Price - $22.00
+                  </h4></div>
+                  <div class="flex gap-1">
+                    <div>
+                      <img src="./Images/Frame (5).png" alt="">
+                    </div>
+                    <div>
+                      <h4>Delivery Fee : Free</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+            <div class="flex flex-col lg:flex-row gap-5 justify-center items-center  mt-10">
+              <div class="1st img">
+                <img src="./Images/8.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 mt-3 ">
+                  <div class="flex gap-1">
+                    <div >
+                      <img src="./Images/Frame (2).png" alt="">
+                    </div>
+                    <div>
+                    <h3 class="text-[#131318.50%]">
+                    5.0</h3>
+                  </div>
+                  </div>
+                  <div class="flex gap-1">
+                    <img src="./Images/Frame (3).png" alt="">
+                    <h3 class="text-[[#131318.50%]]">20</h3>
+                  </div>
+                  <div class="flex gap-1">
+                    <div>
+                      <img src="./Images/Frame (4).png" alt="">
+                    </div>
+                    <div>
+                      <h3>200</h3>
+                    </div>
+                   
+                  </div>
+                 
+                </div>
+                <h3 class="text-[#131318] font-extrabold mt-2">World Cup Flags Football</h3>
+                <p class="w-[300px] text-[rgba(19, 19, 24, 0.60)] mt-2">"World Cup Flags Football celebrates the <br>
+                  global spirit of the tournament</p>
+                  <div class=" flex gap-2 mt-3">
+                    <div> <h4 class="text-[#FF4240] font-extrabold">
+                      Price - $22.00
+                    </h4></div>
+                    <div class="flex gap-1">
+                      <div>
+                        <img src="./Images/Frame (5).png" alt="">
+                      </div>
+                      <div>
+                        <h4>Delivery Fee : Free</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+              <div class="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10">
+                <div class="1st img">
+                  <img src="./Images/10.png" alt="">
+                </div>
+                <div>
+                  <div class="flex gap-3 mt-3 ">
+                    <div class="flex gap-1">
+                      <div >
+                        <img src="./Images/Frame (2).png" alt="">
+                      </div>
+                      <div>
+                      <h3 class="text-[#131318.50%]">
+                      5.0</h3>
+                    </div>
+                    </div>
+                    <div class="flex gap-1">
+                      <img src="./Images/Frame (3).png" alt="">
+                      <h3 class="text-[[#131318.50%]]">20</h3>
+                    </div>
+                    <div class="flex gap-1">
+                      <div>
+                        <img src="./Images/Frame (4).png" alt="">
+                      </div>
+                      <div>
+                        <h3>200</h3>
+                      </div>
+                     
+                    </div>
+                   
+                  </div>
+                  <h3 class="text-[#131318] font-extrabold mt-2">World Cup Flags Football</h3>
+                  <p class="w-[300px] text-[rgba(19, 19, 24, 0.60)] mt-2">"World Cup Flags Football celebrates the <br>
+                    global spirit of the tournament</p>
+                    <div class=" flex gap-2 mt-3">
+                      <div> <h4 class="text-[#FF4240] font-extrabold">
+                        Price - $22.00
+                      </h4></div>
+                      <div class="flex gap-1">
+                        <div>
+                          <img src="./Images/Frame (5).png" alt="">
+                        </div>
+                        <div>
+                          <h4>Delivery Fee : Free</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+        </div>
+       </div>
+     </section>
     </main>
 </body>
 </html>
